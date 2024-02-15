@@ -1,3 +1,12 @@
+import { BlockState } from "./pages/BlockState";
+
 export const App = () => {
-    return <></>;
+    // const [count, setCount] = useState(0);
+    // console.log("Count:", count);
+
+    return (
+        <>
+            <BlockState />
+        </>
+    );
 };

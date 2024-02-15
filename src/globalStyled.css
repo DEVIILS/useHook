@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+}
+
+body {
+    user-select: none;
+    background: #1d1d1d;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+
+    color: white;
+    background: #6f00c294;
+}
+button:hover {
+    background: #8f13edd4;
+    transition: all 0.3s ease-out;
+}
+h2 {
+    margin: 10px;
+}
+.BlockState {
+    width: 800px;
+}
+.dataUser {
+    margin: 10px;
+    width: 100%;
+    overflow: auto;
+    height: 200px;
+    color: #00ff04;
+}
+.dataUser h3 {
+    padding: 5px;
+    color: #06ff0a66;
+}
+.dataUser p {
+    letter-spacing: 1px;
+}
+.baseDataUser {
+    margin-bottom: 5px;
+    background: #141414;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.baseDataUser:hover {
+    color: aqua;
+    background: #272727;
+}
